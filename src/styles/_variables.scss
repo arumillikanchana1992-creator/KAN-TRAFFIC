@@ -1,0 +1,17 @@
+:root {
+  --bg-primary: #0b0f1a;        /* Dark navy background */
+  --bg-card: rgba(255, 255, 255, 0.06); /* Glassmorphism card */
+  --color-accent: #00e5ff;      /* Neon blue */
+  --color-warning: #ff3b30;    /* Red warning */
+  --color-success: #4caf50;    /* Green success */
+  --text-primary: #e0e7ff;    /* Light text */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.4);
+  
+  /* Additional UI Colors */
+  --color-cyan: #00e5ff;
+  --color-cyan-soft: rgba(0, 229, 255, 0.1);
+  --color-danger: #ff3b30;
+  --color-danger-soft: rgba(255, 59, 48, 0.1);
+  --color-warning-soft: rgba(255, 204, 0, 0.1);
+  --color-success-soft: rgba(76, 175, 80, 0.1);
+}

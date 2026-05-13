@@ -1,0 +1,47 @@
+.stat-card {
+  position: relative;
+  overflow: hidden;
+  min-width: 200px;
+  
+  .stat-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .stat-info {
+    .stat-title {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 0.25rem;
+    }
+    .stat-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0;
+    }
+    .stat-trend {
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+    }
+  }
+
+  .stat-icon {
+    font-size: 2rem;
+    opacity: 0.8;
+  }
+
+  .stat-progress-bg {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .stat-progress-bar {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 1s ease-in-out;
+  }
+}
